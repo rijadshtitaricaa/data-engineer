@@ -1,0 +1,45 @@
+Daily Report - Day 2 Practice
+
+Today I worked on:
+Building a CSV data pipeline using Python.
+Reading raw student data from a CSV file and processing the records.
+Checking data quality issues and creating reports.
+Cleaning and transforming student data into a usable format.
+
+Completed tasks:
+Created functions to load and inspect CSV data.
+Implemented data quality checks for missing values, invalid numbers, and inconsistent text values.
+Cleaned the dataset by fixing missing values and standardizing city and course names.
+Added student performance status and risk flag calculations.
+Exported the cleaned dataset into `students_clean.csv`.
+Created a data quality report and final summary report.
+Practiced using functions, lists, loops, and conditions to organize the pipeline.
+
+Not completed yet:
+Improving the code structure by reducing global variables.
+Adding more advanced validation checks such as duplicate record detection.
+Using the built-in CSV module instead of manual CSV splitting.
+
+Biggest difficulty:
+Understanding how to organize the pipeline flow and how data moves from raw input to cleaned output.
+Handling different types of data quality problems while keeping the program running.
+
+How I tried to solve it:
+Broke the pipeline into separate functions for each step.
+Tested each function individually and checked the generated output files.
+Used conditions to handle missing and invalid values.
+Reviewed the cleaned CSV and reports to make sure the results matched the expected output.
+
+
+What I understood better today:
+How a basic Data Engineering pipeline works from reading raw data to producing cleaned data and reports.
+The importance of data quality checks before using data for analysis.
+How functions help organize code into different pipeline steps.
+How loops, lists, and conditions can be used to process multiple records.
+How raw data can be transformed into a cleaner and more useful dataset.
+
+What I need to improve for the next session:
+Improve my code structure by making functions return values instead of relying on global variables.
+Practice using Python libraries like `csv` and `pandas` for data processing.
+Learn more advanced data validation techniques.
+Improve handling of larger datasets and more complex pipelines.

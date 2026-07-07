@@ -1,0 +1,13 @@
+student_id,name,city,course,age,attendance,homework_score,registered_date,total_score,performance_status,risk_flag
+1,Arta,Vushtrri,Python,17,90.0,85.0,2026-07-01,175.0,Strong,OK
+2,Blend,Prishtina,React,18,60.0,70.0,2026-07-02,130.0,Average,OK
+3,Dion,Vushtrri,Python,16,95.0,0,2026-07-02,95.0,Needs Support,At Risk
+4,Elira,Mitrovica,React,17,80.0,0,2026-07-03,80.0,Needs Support,At Risk
+5,Faton,Unknown,Data Engineering,19,100.0,90.0,2026-07-03,190.0,Strong,OK
+6,Gresa,Vushtrri,Python,0,55.0,88.0,2026-07-04,143.0,Needs Support,At Risk
+7,Leart,Prishtina,Data Engineering,18,55.0,60.0,Unknown Date,115.0,Needs Support,At Risk
+8,Nora,Mitrovica,React,17,95.0,92.0,2026-07-05,187.0,Strong,OK
+9,Arben,Vushtrri,Not Assigned,18,70.0,75.0,2026-07-05,145.0,Average,OK
+10,Lisa,Prishtina,Python,16,85.0,80.0,2026-07-06,165.0,Strong,OK
+11,Erion,Skenderaj,Data Engineering,20,40.0,50.0,2026-07-06,90.0,Needs Support,At Risk
+12,Alma,Vushtrri,Python,17,0,90.0,2026-07-07,90.0,Needs Support,At Risk
