@@ -1,0 +1,35 @@
+Daily Report - Monday Practice
+Today I worked on:
+Setting up the core Python data foundations needed for our upcoming Databricks and CSV mini-pipeline training.
+
+Building custom logic to process a dataset of 6 students using nested lists and dictionaries.
+
+Coding automated aggregation metrics and writing a multi-tier conditional system (Strong, Average, Needs Support) 
+to evaluate performance based on attendance and homework trends.
+
+Completed tasks:
+
+Wrote and tested monday_practice.py covering Detyra 1 through Detyra 5, ensuring clean data separation.
+
+Built the final standalone reporting engine in student_report.py that outputs formatted breakdowns by city, course, and critical risk flags exactly like the expected terminal layout.
+
+Organized the workspace into the exact requested GitHub repository structure (week-1/monday-practice/).
+
+Not completed yet:
+Everything in the core prompt is fully finished and push-ready! 
+I skipped the optional bonus tasks (like sorting by combined scores) to focus 100% on making sure my core script logic was bulletproof for 
+tomorrowss shift to CSV files.
+
+Biggest difficulty:
+Honestly, getting hit with KeyError messages when trying to count up the cities and courses. 
+I kept forgetting that if a city like "Mitrovica" isn't already inside the dictionary 
+Python completely panics when you try to add 1 to it Also trying to keep all those print statements and loops organized 
+across separate tasks so the terminal didnt look like an absolute mess took a lot of back-and-forth tweaking.
+
+How I tried to solve it:
+I implemented the .get(key, 0) + 1 method for the dictionary counters, which safely handles new keys on the fly. To make sure the logic was running perfectly,
+I manually cross-checked students like Gresa who appropriately flagged as "Needs Support" and Faton against my terminal outputs before 
+splitting the final report into its own file.
+What I need to improve for Tuesday:
+I need to get faster at manipulating datasets without relying so heavily on manual for loops.
+ I am super excited for Tuesday's transition into automated CSV pipelines so I can see how these same data concepts scale up efficiently!
