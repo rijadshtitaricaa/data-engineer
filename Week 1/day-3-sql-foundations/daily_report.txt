@@ -1,0 +1,26 @@
+Daily Report - Day 3 SQL Foundations
+
+Today I worked on:
+- Practicing SQL queries and creating a custom business table.
+- Learning how SQL can be used for data analysis and reporting.
+
+Completed tasks:
+- Completed the required SQL practice queries.
+- Created the Unity_Students custom table.
+- Inserted student data and created business-related queries.
+- Created pipeline_thinking.md and README.md.
+
+Not completed yet:
+- Advanced SQL topics like JOINs, GROUP BY, and aggregate functions.
+
+The hardest part was:
+- Designing a custom table and creating queries that represent real business questions.
+
+How I tried to solve it:
+- Reviewed examples from class, tested queries in SQLiteOnline, and fixed errors by checking the SQL syntax.
+
+What I understood better today:
+- How databases store business data and how SQL queries can transform data into useful information.
+
+What I need to improve for the next session:
+- Practice more complex SQL queries and improve my understanding of data pipelines.
