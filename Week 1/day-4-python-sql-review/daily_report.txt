@@ -1,0 +1,35 @@
+Daily Report - Day 4 Practice
+
+Today I worked on:
+- Refactoring and fixing bugs in Python loops processing dictionary data.
+- Creating a relational database table from scratch using standard SQL data types.
+- Translating data manipulation logic between imperative Python functions and declarative SQL queries.
+- Evaluating a small business challenge dataset to find top financial metrics and writing professional operational analyses.
+
+Python tasks completed:
+- Fixed a list-indexing logic error regarding dictionary lookups within a for-loop.
+- Implemented data calculation and f-string terminal output formatting for total order amounts.
+- Designed key-based sorting criteria using explicit helper functions instead of lambda shortcuts.
+- Created multi-tracker tracking for statuses, localized revenue accumulation, and customer frequency counters.
+
+SQL tasks completed:
+- Wrote setup.sql to handle DROP TABLE, CREATE TABLE schemas, and multi-row INSERT operations manually.
+- Formulated queries to filter status constraints, apply runtime calculated columns via aliases, and restrict data limits.
+- Constructed multi-layered sorting chains utilizing WHERE logic paired with ORDER BY...DESC modifiers.
+
+Comparison tasks completed:
+- Authored comparison.md detailing structural logic changes (such as memory management during Python slicing vs. optimized query execution with SQL LIMIT limits).
+
+
+What I understood better today:
+- I gained a solid grasp of how SQL simplifies filtering and sorting data globally using declarative keywords, whereas Python requires managing specific pointers, local variables, and array slices manually.
+- I understand how dictionary tracking works when mapping unique dynamic strings (like customer names) to integers.
+
+What was difficult:
+- Constructing the multi-tracker conditional loop in Python Exercise 5. Handling three completely different types of metrics simultaneously inside a single loop iteration block—updating specific category keys, tracking conditional revenue math, and dynamically instantiating/incrementing customer dictionary names—was visually overwhelming to write from scratch.
+
+What I need to practice more:
+- I need more practice setting up and managing dynamic, empty dictionary trackers in Python loops without losing track of syntax boundaries.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used AI exclusively to assist with Python Exercise 5. I engineered the SQL portion fully independently, but used AI as a targeted feedback mechanism to provide structural hints and guide me through the correct sequence for building the multi-variable tracking script.
