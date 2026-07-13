@@ -1,0 +1,38 @@
+# Day 6 - SQL Business Reporting Sprint
+
+## Goal of the Practice
+
+The goal of this practice was to move from simple SQL row-level queries into business reporting.
+
+I worked with three related tables:
+
+- orders
+- customers
+- products
+
+The main focus was learning how SQL can answer business questions using:
+
+- COUNT
+- SUM
+- AVG
+- MIN
+- MAX
+- GROUP BY
+- HAVING
+- JOIN
+
+The goal was not only writing SQL queries but understanding what the results mean from a business perspective.
+
+## Files Included
+
+day-6-sql-business-reporting/
+
+├── setup.sql
+├── basic_aggregations.sql
+├── group_by_reports.sql
+├── join_reports.sql
+├── business_report.md
+├── query_explanations.md
+├── daily_report.txt
+├── README.md
+└── screenshots/
