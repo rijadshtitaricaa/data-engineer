@@ -1,0 +1,118 @@
+================================================================================
+DAILY REPORT - Day 7 Practice
+SQL Detective Day - Debugging & Business Verification
+================================================================================
+
+TODAY I WORKED ON:
+- Identifying and fixing 10 broken SQL queries with real-world errors
+- Creating 15 validation queries to verify business metrics
+- Building a verified business report backed entirely by SQL results
+- Explaining query logic in detail for debugging and learning
+- Developing bonus challenge queries for advanced SQL practice
+
+BROKEN QUERIES I FIXED:
+- Query 1: Added JOIN between orders and customers to access city data
+- Query 2: Added JOIN to products table and calculated revenue with multiplication
+- Query 3: Removed stray semicolon after GROUP BY that was breaking syntax
+- Query 4: Added JOIN to products table to access price column
+- Query 5: Added JOIN to products table to access category column
+- Query 6: Added JOIN to products table for revenue calculation
+- Query 7: Moved HAVING clause after GROUP BY (was in wrong order)
+- Query 8: Fixed missing JOIN condition between orders and customers
+- Query 9: Corrected JOIN condition from customer_id to product_id
+- Query 10: Changed filter from status = 'completed' to status != 'completed'
+
+VALIDATION QUERIES I COMPLETED:
+- V1: Total order count (14 orders)
+- V2: Completed orders count (10 completed)
+- V3: Pending orders count (2 pending)
+- V4: Cancelled orders count (2 cancelled)
+- V5: Total customers (10 customers)
+- V6: Total products (8 products)
+- V7: Completed revenue ($1,639.00)
+- V8: Revenue by product name (6 products analyzed)
+- V9: Revenue by category (3 categories: Electronics, Accessories, Office)
+- V10: Orders by city (6 cities: Prishtina, Vushtrri, Mitrovica, Peja, Prizren, Ferizaj)
+- V11: Repeat customers (4 customers with 2+ orders)
+- V12: Top 3 completed orders by amount
+- V13: Non-revenue orders (4 orders: 2 pending, 2 cancelled = $1,660 at risk)
+- V14: Highest revenue category (Electronics)
+- V15: City with highest order activity (Prishtina with 5 orders)
+
+BUSINESS NUMBERS I VERIFIED:
+- Total order activity: 14 orders
+- Verified completed revenue: $1,639.00
+- At-risk/lost revenue: $1,660.00 (50% of total order value)
+- Revenue by category: Electronics $1,240 (75.7%), Accessories $279 (17%), Office $120 (7.3%)
+- Geographic distribution: Prishtina 5 orders (36%), Vushtrri 4 orders (29%), others 5 orders (35%)
+- Repeat customers: 4 out of 10 customers (40% retention rate)
+- Order completion rate: 10 completed out of 14 total (71%)
+- Average order value: $235.57 per order (total / 14)
+- Highest revenue product: Laptop ($700 from 1 order)
+- Highest volume product: Mouse (7 units sold)
+
+WHAT SQL MISTAKE I UNDERSTAND BETTER NOW:
+- Missing JOIN causes queries to fail when accessing columns from other tables
+- Incorrect JOIN conditions (wrong column matching) produces wrong results
+- WHERE clauses encode business logic—status filtering is critical for revenue reporting
+- Syntax errors like stray characters/semicolons break entire queries
+- Table aliases (o, c, p) are essential for clarity in multi-table queries
+- GROUP BY and HAVING must appear in the correct order
+- SUM(quantity * price) requires a JOIN because quantity and price are in different tables
+- Without filtering for 'completed' status, revenue numbers are inflated and meaningless
+
+WHAT WAS DIFFICULT:
+- Initially, understanding which table contained which column without looking at schema
+- Recognizing that city is in customers table, not orders table (logical but easy to miss)
+- Understanding why JOIN conditions matter—INNER JOIN needs exact column matches
+- Debugging Query 1 because the error message didn't explicitly say "city not found in orders"
+- Remembering to GROUP BY when doing aggregations like SUM and COUNT
+- Understanding HAVING clause vs WHERE clause timing in the query execution order
+
+WHAT I NEED TO PRACTICE MORE:
+- Writing JOIN conditions correctly on first try (muscle memory needed)
+- Analyzing schema diagrams to immediately know table relationships
+- Using GROUP BY with multiple columns correctly
+- Understanding LEFT vs INNER vs RIGHT JOINs (only used INNER JOIN today)
+- Complex queries with 3+ table JOINs
+- Subqueries and nested queries
+- Window functions for ranking and running totals
+- Creating indexes for query optimization
+
+DID I USE AI? IF YES, HOW DID I USE IT?
+Yes, I used AI assistance to:
+- Generate the verified business report template and fill in exact numbers from queries
+- Create detailed explanations for query_explanations.md that describe business meaning
+- Develop the README.md with learning points about SQL debugging
+- Review query logic to ensure correctness before execution
+
+However, I personally:
+- Identified the SQL errors in broken_queries.sql
+- Fixed all broken queries by understanding the schema and error messages
+- Wrote all fixed_queries.sql corrections with explanatory comments
+- Created all validation_queries.sql from scratch for business metrics
+- Understood and could explain every query without AI assistance
+- Performed the business analysis and recommendations independently
+
+CAN I EXPLAIN MY FIXED QUERIES LIVE?
+Yes, I can explain:
+
+Fixed Query 1 (Orders by City):
+"This query counts orders by city. The city column is in the customers table, but orders are in the orders table. We JOIN them on customer_id to connect each order to its customer's city. GROUP BY city groups the order counts by each city. Results show Prishtina has 5 orders and Vushtrri has 4 orders—these are our strongest markets."
+
+Fixed Query 7 (Completed Revenue):
+"This calculates the total money we actually made. We multiply each order's quantity by the product's price. We JOIN orders to products using product_id. The WHERE status='completed' is critical—it excludes the $1,660 in pending and cancelled orders that aren't real revenue. Result is $1,639 in verified revenue."
+
+Fixed Query 11 (Repeat Customers):
+"We GROUP orders by customer_id and COUNT the orders per customer. HAVING COUNT > 1 filters to only customers with more than one order. Result shows 4 customers (Arta, Blend, Dren, Elira) each placed 2 orders. This is 40% retention rate, which is good for business."
+
+Business Number - Verified Completed Revenue ($1,639):
+"The actual revenue we made is $1,639 from completed orders. I verified this with Query V7 that JOINs orders to products and sums quantity × price where status='completed'. The other $1,660 in order value is either pending (not confirmed) or cancelled (lost revenue). So while we have 14 orders worth $3,299 total, only 50% became actual revenue."
+
+================================================================================
+Practice Date: July 14, 2026
+Time Spent: 2-3 hours
+Difficulty Level: Moderate
+Confidence Level: High
+Prepared for: Advanced SQL, Database Analysis, Business Intelligence
+================================================================================
