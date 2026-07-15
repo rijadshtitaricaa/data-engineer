@@ -1,0 +1,47 @@
+BUSINESS REPORT
+====================
+
+Raw records: 24
+Valid records: 20
+Invalid records: 4
+
+Completed Revenue:
+2689
+
+Top 5 Orders:
+Order 16 - Laptop - 720
+Order 1 - Laptop - 700
+Order 8 - Monitor - 360
+Order 23 - Desk Chair - 240
+Order 4 - Monitor - 180
+
+
+Top Customers by Revenue:
+Bleron: 720
+Arta: 700
+Leart: 440
+
+
+Top Products by Revenue:
+Laptop: 1420
+Monitor: 540
+Desk Chair: 360
+
+
+Top Cities by Revenue:
+Prishtina: 849
+Vushtrri: 790
+Peja: 510
+
+
+Categories by Revenue:
+Electronics: 1960
+Office: 430
+Accessories: 299
+
+
+Channels by Revenue:
+online: 1099
+partner: 800
+store: 750
+unknown: 40

@@ -1,0 +1,45 @@
+Daily Report - Day 8 Practice
+
+Today I worked on:
+- Building a Python data analysis pipeline that validates, cleans, and analyzes order data.
+- Processing raw business data and turning it into useful reports.
+
+Python tasks completed:
+- Created functions for validation, cleaning, calculations, counting, and sorting.
+- Used lists and dictionaries to store and analyze data.
+- Created reusable functions instead of repeating code.
+
+Validation logic completed:
+- Checked orders for empty customer names.
+- Checked invalid quantities and prices.
+- Separated valid and invalid records.
+- Generated a report showing invalid records and their reasons.
+
+Cleaning/normalization completed:
+- Normalized order statuses.
+- Fixed inconsistent city names.
+- Standardized categories and channels.
+- Created cleaned order records for analysis.
+
+Reports generated:
+- Invalid records report.
+- Validation report.
+- Business report with revenue calculations, top orders, customers, products, cities, categories, and channels.
+
+What was difficult:
+- Understanding how to structure the data pipeline in the correct order.
+- Making sure validation happened before calculating business metrics.
+- Creating dynamic reports using dictionaries without hardcoding values.
+
+What I understood better today:
+- How real data needs to be cleaned before analysis.
+- How dictionaries can be used for counting and grouping data.
+- How functions make larger Python programs easier to manage.
+
+What I need to practice more:
+- Writing cleaner and shorter Python code.
+- Using more advanced data processing techniques.
+- Improving report formatting and automation.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI mainly for debugging, checking my logic, and understanding errors. I wrote the main solution myself and used AI as a learning assistant to improve my understanding.

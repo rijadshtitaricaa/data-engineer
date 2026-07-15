@@ -1,0 +1,4 @@
+Validation Report
+Total records: 24
+Valid records: 20
+Invalid records: 4

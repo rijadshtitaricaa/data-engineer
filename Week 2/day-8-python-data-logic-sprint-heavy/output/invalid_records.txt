@@ -1,0 +1,19 @@
+Invalid Records
+================
+
+Order ID: 15
+Reasons:
+- Empty customer name
+
+Order ID: 17
+Reasons:
+- Invalid quantity
+
+Order ID: 18
+Reasons:
+- Invalid quantity
+
+Order ID: 20
+Reasons:
+- Invalid price
+
