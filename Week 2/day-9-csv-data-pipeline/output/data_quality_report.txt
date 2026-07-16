@@ -1,0 +1,28 @@
+Data Quality Report - Day 9
+
+Total raw orders: 20
+Valid orders: 13
+Invalid orders: 7
+
+Invalid records by reason:
+missing_quantity: 1
+invalid_customer_id: 1
+invalid_product_id: 1
+missing_order_date: 1
+negative_quantity: 1
+missing_status: 1
+invalid_quantity: 1
+
+Bronze input files checked:
+- orders_raw.csv
+- customers_raw.csv
+- products_raw.csv
+
+Silver output files created:
+- orders_clean.csv
+
+Main data quality problems found:
+- Missing quantities
+- Invalid customer/product IDs
+- Incorrect status values
+- Missing dates

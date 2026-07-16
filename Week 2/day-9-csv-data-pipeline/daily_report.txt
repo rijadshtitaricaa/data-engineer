@@ -1,0 +1,35 @@
+Daily Report - Day 9 Practice
+
+Today I worked on:
+- Building a complete CSV data pipeline using Python.
+- Loading raw CSV files using csv.DictReader.
+- Creating lookup tables to connect orders with customers and products.
+- Cleaning, validating, enriching, and generating business reports from data.
+
+Pipeline parts completed:
+- Bronze layer: Loaded raw CSV files (orders, customers, products).
+- Data validation: Checked missing values, invalid IDs, quantities, and status values.
+- Silver layer: Created clean enriched orders with customer and product information.
+- Gold layer: Generated business summary and data quality reports.
+
+Most difficult part:
+- Understanding how validation, enrichment, and lookup tables work together.
+- Thinking about Python dictionaries like SQL JOIN operations.
+
+One bug/error I fixed:
+- Fixed status normalization where different values like Completed, complete, and done needed to become the same clean value.
+- Fixed issues with validating invalid records and generating output files.
+
+What I understood better about Bronze/Silver/Gold:
+- Bronze stores raw data without changing it.
+- Silver contains cleaned, validated, and enriched data ready for analysis.
+- Gold contains business-ready reports and metrics created from trusted Silver data.
+
+What I need to practice more:
+- Writing more complex transformations.
+- Creating better data quality checks.
+- Working with larger datasets and future tools like Databricks and Spark.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI as a learning assistant to understand concepts, review my logic, and get explanations for parts of the pipeline.
+- I wrote and understood the final implementation myself and used AI only for guidance and debugging help.
