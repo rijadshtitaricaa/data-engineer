@@ -1,0 +1,43 @@
+Daily Report - Day 11 Practice
+
+Today I worked on:
+- Built a complete Python + SQL data pipeline.
+- Loaded Bronze CSV files containing raw orders, customers, and products.
+- Created validation logic to separate clean and invalid data.
+- Generated Silver clean data and Gold business reports.
+- Created SQL tables and reporting queries from trusted data.
+
+
+Pipeline parts completed:
+- Bronze layer: Loaded raw CSV files.
+- Silver layer: Cleaned, validated, normalized, and enriched order data.
+- Gold layer: Created revenue reports, customer reports, and executive summary.
+- SQL reporting: Created clean_orders table and business queries.
+
+
+Most difficult part:
+- Creating the validation logic because multiple types of bad data had to be handled:
+  missing values, invalid statuses, incorrect quantities, and invalid IDs.
+
+
+One bug/error I fixed:
+- Fixed CSV writing by using csv.DictWriter instead of csv.DictReader.
+- Fixed indentation problems in the aggregation logic.
+- Learned that code inside loops must be correctly indented to process every record.
+
+
+What I understood better about Bronze/Silver/Gold:
+- Bronze stores raw data exactly as received.
+- Silver contains cleaned and trusted data after validation.
+- Gold contains business-ready reports created from Silver data.
+
+
+What I need to practice more:
+- Writing cleaner functions and organizing larger Python projects.
+- Connecting Python pipelines with databases.
+- Learning more about SQL analytics and Databricks workflows.
+
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI as a learning assistant to review code structure, understand errors, and get guidance on building the pipeline step by step.
+- I still wrote and understood the main logic myself.
