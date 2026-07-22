@@ -1,0 +1,40 @@
+Daily Report - Day 12 Practice
+
+Today I worked on:
+- Database relationships using primary keys and foreign keys.
+- Creating multi-table JOIN queries between customers, orders, order_items, and products.
+- Writing business reports using SQL aggregation functions like SUM, COUNT, GROUP BY, and ORDER BY.
+- Understanding AUTO INCREMENT and how databases manage unique IDs.
+
+Pipeline parts completed:
+- Created and worked with relational database tables.
+- Practiced INNER JOIN and LEFT JOIN queries.
+- Completed business reporting tasks:
+  - Revenue by city
+  - Revenue by product category
+  - Top customers and products by revenue
+  - Order and product counting reports
+- Documented database relationships and concepts in README.md.
+
+Most difficult part:
+- Understanding how multiple tables connect together and choosing the correct JOIN conditions.
+- Knowing which table contains the required information when creating reports.
+
+One bug/error I fixed:
+- Fixed SQL queries where columns were selected from the wrong table.
+- Improved JOIN conditions by using the correct primary key and foreign key relationships.
+
+What I understood better about databases:
+- Primary keys create unique identities for records.
+- Foreign keys connect tables and maintain data integrity.
+- INNER JOIN only returns matching records.
+- LEFT JOIN keeps all records from the main table even without matches.
+- Business reports require combining data from multiple related tables.
+
+What I need to practice more:
+- Writing more complex SQL queries.
+- Understanding query optimization and indexes.
+- Practicing advanced SQL features like window functions.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI to check SQL query logic, understand database relationships, fix mistakes, and improve documentation explanations.
