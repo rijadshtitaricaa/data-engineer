@@ -1,0 +1,47 @@
+Daily Report - Day 13 Practice
+
+Today I worked on:
+- Designing a relational database for Unity Tech Hub.
+- Creating tables for students, instructors, courses, enrollments, attendance, assignments, and submissions.
+- Using primary keys and foreign keys to connect tables.
+- Creating one-to-many and many-to-many relationships.
+- Writing JOIN queries and business reports using multiple tables.
+- Adding constraints like NOT NULL, UNIQUE, and CHECK to protect data quality.
+
+Pipeline parts completed:
+- Designed a normalized database structure.
+- Created tables with primary keys and foreign keys.
+- Created enrollments as a bridge table between students and courses.
+- Inserted realistic seed data for testing.
+- Tested database constraints with invalid inserts.
+- Created JOIN reports using INNER JOIN and LEFT JOIN.
+- Created manager reports for business analysis.
+- Documented database design and relationships.
+
+Most difficult part:
+- Understanding how relationships between multiple tables work.
+- Deciding where foreign keys should be placed.
+- Writing JOIN queries that connect the correct tables.
+
+One bug/error I fixed:
+- Fixed missing foreign key columns before creating constraints.
+- Corrected table references and JOIN conditions.
+- Fixed invalid inserts caused by foreign key and CHECK constraints.
+
+What I understood better about databases:
+- Primary keys give every record a unique identity.
+- Foreign keys create connections between tables.
+- Bridge tables solve many-to-many relationships.
+- Constraints help prevent incorrect data.
+- INNER JOIN returns matching records between tables.
+- LEFT JOIN helps find records that do not have related data.
+- Good database design reduces duplicate information.
+
+What I need to practice more:
+- Writing more advanced SQL queries.
+- Creating more complex reporting queries.
+- Understanding database optimization and indexing.
+- Practicing larger data models for analytics platforms.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI to understand database relationships, review SQL syntax, debug errors, explain concepts, and help organize documentation for the project.
